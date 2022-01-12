@@ -13,10 +13,10 @@ const Home = () => {
             <Nav />
         </header>
         <main>
-        
             <h1>Ed Chamberlain</h1>
             <p>Junior Software Engineer</p>
             <img src="https://i.imgur.com/HMpkjmh.jpg" height="200" width="200" alt={'EdC'}/>
+            <p>Welcome to my website, I'm currently looking for a job, so someone out there please hire me </p>
             <div className='social-icons'>
                 <div className='social'>
                 <a
