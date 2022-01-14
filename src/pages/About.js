@@ -7,6 +7,7 @@ const About = () => {
         <header>
             <Nav />
         </header>
+        <main>
         <div className='about-text'>
           <h2>About Me</h2>
           <h4>History</h4>
@@ -21,6 +22,7 @@ Lastly my Advertising strategy job, through this I solidified my time management
           <h4>What do I want to do next?</h4>
           <p>To be honest, I want to get a job where I love my team and I’m happy working there. If I was to win the lottery, I don’t think this goal would change, I want to code and I want to be in a company where I’m happy doing that!</p>
         </div>
+        </main>
       </section>
     )
   }
