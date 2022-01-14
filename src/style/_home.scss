@@ -1,5 +1,6 @@
 body {
-  background-color: #83c58b;
+  //   background-color: #83c58b;
+  background-color: rgb(3, 54, 29);
 }
 main {
   display: flex;
@@ -15,7 +16,17 @@ main {
 .top-content {
   display: flex;
   padding: 10px;
+  margin-top: 15px;
   justify-content: center;
+  img {
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+  }
+  .right-top {
+    margin-left: 20px;
+    max-width: 40%;
+  }
 }
 svg {
   height: 2em;
