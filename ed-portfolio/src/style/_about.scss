@@ -10,4 +10,12 @@
     margin-top: 10px;
     margin-bottom: 10px;
   }
+  .about-seg {
+    display: flex;
+    flex-direction: column;
+    h4 {
+      border-bottom: 2px solid rgb(28, 68, 28);
+      border-top: 2px solid rgb(28, 68, 28);
+    }
+  }
 }

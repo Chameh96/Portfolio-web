@@ -1,24 +1,30 @@
 .top-portfolio {
   margin: 2px;
+  border-bottom: 2px solid rgb(28, 68, 28);
   h3 {
     margin-top: 0px;
     margin-bottom: 0px;
   }
 }
-
 .port-div {
   display: flex;
   flex-direction: column;
   margin: 5px;
+  border-bottom: 2px solid rgb(28, 68, 28);
+  padding-bottom: 10px;
   .title-div {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    font-size: 1.25rem;
+    font-size: 1.4rem;
     text-decoration: underline;
+    a {
+      color: black;
+    }
     h4 {
-      padding-right: 10px;
+      padding-right: 30px;
+      color: black;
     }
   }
   .port-layout {
@@ -29,11 +35,22 @@
       display: flex;
       flex-direction: column;
       justify-content: left;
-      width: 50%;
+      padding-left: 80px;
+      padding-right: 20px;
+      width: 35%;
       li {
         text-align: left;
         width: 100%;
+        font-size: 1.2rem;
+        margin-top: 2px;
       }
     }
+  }
+}
+.git-icon {
+  width: 60%;
+  padding-left: 20px;
+  .git {
+    width: 100%;
   }
 }
