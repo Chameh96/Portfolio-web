@@ -18,7 +18,7 @@ const Home = () => {
             <div className='right-top'> 
             <h1>Ed Chamberlain</h1>
             <p>Junior Software Engineer</p>
-            <p>Welcome to my website, I'm currently looking for a job, so someone out there please hire me </p>
+            <p>I’m a Software Engineer with experience in Advertising, Marketing, Strategy and Real Estate. Having thought of coding for a while I did a one day course in Python and immediately fell in love with not only the creativity and logic, but also the multiple routes you can take to solve problems and enrolled in General Assembly’s Software Engineering course. </p>
             <div className='social-icons'>
                 <div className='social'>
                 <a

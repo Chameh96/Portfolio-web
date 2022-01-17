@@ -12,11 +12,14 @@ const Portfolio = () => {
         </header>
         <main>
             <h1>Portfolio</h1>
+            <div className='top-portfolio'>
             <h3>What I'm working on currently</h3>
             <p>I am currently working with three others from the General Assembly Immersive Software Engineering course to create a one-stop place for teachers, students and governing bodies. So the teachers can set, grade and feedback on homework, students can recieve, complete and submit work, and the governing bodies can see big picture reports on how much homework is given and overall grade performances etc.</p>
             <h3>Previous work</h3>
+            <p>Click on the GitHub logos to view each project repository.</p>
+            </div>
             <div className='port-div'> 
-                <div className='title-git'>
+                <div className='title-div'>
                     <h4>aioli</h4>
                     <a
                             href='https://github.com/Chameh96/Project-3'
@@ -32,7 +35,7 @@ const Portfolio = () => {
                         <li>We had 9 days to create a full MERN Stack application with CRUD capabilities.</li>
                         <li>Our idea was a recipe website, where you can add and save recipes to your profile.</li>
                         <li>Working across both front and back end to create one of the 'best designed projects' our instructor had seen.</li>
-                        <li>View aioli.</li>
+                        <li>View <a href="https://aioli-app.herokuapp.com/recipes" target='blank' rel='noreferrer'>aioli.</a></li>
                     </ul>
                     <div className='social-icons'>
                         <div className='social'>
@@ -42,7 +45,7 @@ const Portfolio = () => {
                 </div>
             </div>
             <div className='port-div'> 
-                <div className='title-git'>
+                <div className='title-div'>
                     <h4>Ed-crypt</h4>
                     <a
                                 href='https://github.com/Chameh96/Project-4'
@@ -58,7 +61,7 @@ const Portfolio = () => {
                             <li>We had 9 days to create a full stack application using Python and Django.</li>
                             <li>I wanted to try something new and learn how to encrypt and decrypt using Cryptography.py.</li>
                             <li>Learning to read the Documentation was a useful skill to pick up from this project.</li>
-                            <li>View Ed-crypt.</li>
+                            <li>Due to the nature of the data Ed-crypt would store I took the decision to not deploy it, but you can view the code by clicking the GitHub logo above.</li>
                         </ul>
                         <div className='social-icons'>
                             <div className='social'>
@@ -68,7 +71,7 @@ const Portfolio = () => {
                     </div>
             </div>
             <div className='port-div'>
-                <div className='title-git'> 
+                <div className='title-div'> 
                     <h4>Space-Page</h4>
                     <a
                             href='https://github.com/Chameh96/Project-2'
@@ -83,7 +86,7 @@ const Portfolio = () => {
                         <li>Group project in a team of two.</li>
                         <li>We had 2 days to create a React front end application utilising a public API.</li>
                         <li>My teammate wanted to go for something space themed so we used three different API's to create a one stop place for space news.</li>
-                        <li>View Space-Page.</li>
+                        <li>View <a href="https://space-page.netlify.app/" target='blank' rel='noreferrer'>Space Page.</a></li>
                     </ul>
                     <div className='social-icons'>
                         <div className='social'>
@@ -93,7 +96,7 @@ const Portfolio = () => {
                 </div>
             </div>
             <div className='port-div'> 
-                <div className='title-git'> 
+                <div className='title-div'> 
                     <h4>Battleships OG</h4>
                     <a
                             href='https://github.com/Chameh96/Battleships'
@@ -110,7 +113,7 @@ const Portfolio = () => {
                         <li>The game must used HTML, CSS and JavaScript.</li>
                         <li>The player had to be abke to play against a computer.</li>
                         <li>I wanted the game to be as cose to the original as possible with my own twist in there.</li>
-                        <li>View Battleships OG.</li>
+                        <li>View <a href="https://chameh96.github.io/Battleships/" target='blank' rel='noreferrer'>Battleships OG.</a></li>
                     </ul>
                     <div className='social-icons'>
                         <div className='social'>
