@@ -55,20 +55,20 @@ const Portfolio = () => {
                             <FaGithub />
                             </a>
                 </div>
-                    <div className='port-layout'>
-                        <ul>
-                            <li>Final solo project.</li>
-                            <li>We had 9 days to create a full stack application using Python and Django.</li>
-                            <li>I wanted to try something new and learn how to encrypt and decrypt using Cryptography.py.</li>
-                            <li>Learning to read the Documentation was a useful skill to pick up from this project.</li>
-                            <li>Due to the nature of the data Ed-crypt would store I took the decision to not deploy it, but you can view the code by clicking the GitHub logo above.</li>
-                        </ul>
-                        <div className='git-icon'>
-                            <div className='git'>
-                                <img src="https://i.imgur.com/l43cC3x.jpg" height="300" width="600" alt={'edcrypt'}/>
-                            </div>
+                <div className='port-layout'>
+                    <ul>
+                        <li>Final solo project.</li>
+                        <li>We had 9 days to create a full stack application using Python and Django.</li>
+                        <li>I wanted to try something new and learn how to encrypt and decrypt using Cryptography.py.</li>
+                        <li>Learning to read the Documentation was a useful skill to pick up from this project.</li>
+                        <li>Due to the nature of the data Ed-crypt would store I took the decision to not deploy it, but you can view the code by clicking the GitHub logo above.</li>
+                    </ul>
+                    <div className='git-icon'>
+                        <div className='git'>
+                            <img src="https://i.imgur.com/l43cC3x.jpg" height="300" width="600" alt={'edcrypt'}/>
                         </div>
                     </div>
+                </div>
             </div>
             <div className='port-div'>
                 <div className='title-div'> 
